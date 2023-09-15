@@ -1,0 +1,62 @@
+//- index.pug
+//-syntax to write html in pug.
+//- dont give extra intendentation.
+doctype html 
+html 
+   head 
+    title My Dance Academy 
+    style 
+        include ../static/style.css 
+   body 
+      nav#navbar 
+         ul 
+            div#logo
+                img(src="/static/img/pic2.jpg" )
+                | HDA 
+            li #[a(href="/") Home]   
+            li #[a(href="/") About]  
+            li #[a(href="/") Service]  
+            li #[a(href="/") Class info]
+            li #[a(href="/") Contact Us] 
+
+      section#introsection  
+        | Welcome to My Dance Academy 
+        div.small Live Learn Dance Repeat follow your passion 
+  
+      section#Missionsection 
+       h2  Our Mission  
+       div.card
+           h3  Dance perfection 
+           div.card-box 
+             div.card-img 
+                 img(src="/static/img/pic 3.jpg")
+             div.card-content
+                 p This is the best academy of india. 
+       div.card
+           h3  Dance the way you like
+           div.card-box 
+             div.card-img 
+                 img(src="/static/img/pic.jpg")
+             div.card-content
+                 p This is the best academy of india. 
+       div.card
+           h3  Expert teaching
+           div.card-box 
+             div.card-img 
+                 img(src="/static/img/pic 1.jpg")
+             div.card-content
+                 p This is the best academy of india. 
+           
+      section#Sponserssection 
+       h2 Our Sponsers 
+        div#sponsers 
+            img(src="/static/img/logo1.jpg", alt="sponser image", class="spimage")
+            img(src="/static/img/logo2.jpg", alt="sponser image", class="spimage")
+            img(src="/static/img/logo3.jpg", alt="sponser image", class="spimage")
+            img(src="/static/img/logo4.jpg", alt="sponser image", class="spimage")
+
+      footer#footer 
+         | Copyright @ 2023 MyDanceAcademy.com | All rights reserved       
+      script 
+        include ../static/index.js  
+//-this is the file where we write opur java script in index.js and we are linking it with index.pug     

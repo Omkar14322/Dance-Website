@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 25px;
+    width: 55px;
+    /* filter: invert(1);   This will change the color of image black to white*/
+}
+#navbar{
+    background-color: rgb(5, 90, 90);
+    padding: 15px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: sticky;
+    top: 0;
+   
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+     align-items: center;   /*here it will get centered vertically. */
+    
+}
+
+#navbar li{
+    list-style: none;
+   
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding:10px  20px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introsection{
+    padding-bottom: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    height: 500px;
+    background-color: red;
+    background: url("/static/bg.jpg")center center no-repeat;
+       /* position: absolute; */
+}
+
+#introsection div.small{
+    padding: 3px;
+    font-size: 17px;
+}
+
+#Missionsection{
+    /* display: flex; This also valid */
+    /* justify-content: center; */
+    height: 270px;
+    width: 70%;
+    margin: auto;
+    /* background-color: rgba(0, 17, 255, 0.671); */
+}
+
+#Missionsection h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card{
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 25px 6px;
+    width: 30%;
+    height: 150px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+    margin-top:15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+     height: 100px;
+     padding: 0px 13px;
+     /* margin: -3px 9px; */
+}
+
+.card-img img{
+     height: inherit;  /*This will set our image in the box. */
+    padding-bottom: 15px;
+}
+
+.card-content{
+    padding: 0px 15px;
+    
+}
+
+.card-content p{
+    font-size: 18px;
+
+}
+#Sponserssection{
+    /* display: flex; This also valid */
+    /* justify-content: center; */
+    height: 270px;
+    background-color: rgba(0, 17, 255, 0.466);
+}
+
+#Sponserssection h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#sponsers{
+    /* margin-top: 20px; */
+    height: 180px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.spimage{
+    height: 150px;
+    margin: 10px;
+
+}
+#footer{
+    height: 60px;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(37, 37, 35);
+
+}

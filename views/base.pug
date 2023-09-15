@@ -1,0 +1,24 @@
+doctype html 
+html  
+  head 
+    title My Dance Academy 
+    //- pug inheritence property
+    //- - block style  it means we want to  add something in style it allows to add   
+    //-if we want to add a style for different pages.then we use block style
+    //- whatever the javascript we write it is apply for all different pages by adding it through the block. 
+    block scripts 
+    block style 
+body 
+   nav#navbar 
+         ul 
+            div#logo
+                img(src="/static/img/pic2.jpg" )
+                | HDA 
+            li #[a(href="/") Home]   
+            li #[a(href="/") About]  
+            li #[a(href="/") Service]  
+            li #[a(href="/") Class info]
+            li #[a(href="/contact") Contact Us] 
+   block content 
+   footer#footer 
+       | Copyright @ 2023 MyDanceAcademy.com | All rights reserved  

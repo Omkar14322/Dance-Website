@@ -1,0 +1,21 @@
+{
+  "name": "dance-site-using-pug",
+  "version": "1.0.0",
+  "description": "This is a best dance acadmy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "best",
+    "acadmy"
+  ],
+  "author": "omkar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^7.0.3",
+    "pug": "^3.0.2"
+  }
+}
